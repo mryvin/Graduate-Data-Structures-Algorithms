@@ -1,0 +1,36 @@
+digraph {
+	rankdir=TB size="8,5"
+	L [label=L]
+	F [label=F]
+	L -> F
+	C [label=C]
+	F -> C
+	A [label=A]
+	C -> A
+	E [label=E]
+	C -> E
+	I [label=I]
+	F -> I
+	G [label=G]
+	I -> G
+	K [label=K]
+	I -> K
+	Q [label=Q]
+	L -> Q
+	O [label=O]
+	Q -> O
+	N [label=N]
+	O -> N
+	P [label=P]
+	O -> P
+	Y [label=Y]
+	Q -> Y
+	U [label=U]
+	Y -> U
+	S [label=S]
+	U -> S
+	W [label=W]
+	U -> W
+	Z [label=Z]
+	Y -> Z
+}
